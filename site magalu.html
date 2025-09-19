@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+
+    <style>
+        body{
+            background-color: rgb(226, 226, 226);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        .topo{
+            background-color: rgb(42, 124, 218);
+            display: flex;
+            align-items: center;
+            gap: 65px;
+            padding: 0px;
+            justify-content: center;
+
+
+        }
+        .tit{
+            color: white;
+            background: none;
+            border:none;
+            cursor:pointer;
+            margin: 0;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        input{
+            border-radius: 10px;
+            padding: 20px;
+           
+        }
+        .subtop {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 40px;
+            padding: 10px 20px;
+            justify-content: space-around;
+        }
+        .subtit{
+            color: rgb(117, 117, 117);
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .wrap {
+            position: relative;
+            max-width: none;
+            flex-grow: 0.4;
+        }
+        .wrap input[type="text"] {
+            width: 100%;
+            padding: 15px 40px 15px 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .wrap i {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            color: #888;
+            pointer-events: none;
+        }
+        .cabecario {
+        background-image: url(https://topsortassets.com/asset_01k4cxhc90ejjv94j7k61wpjhs.png);
+        padding: 100px;
+        background-repeat: no-repeat;
+        
+       
+        background-position: center;
+        margin-top: 340px;
+      }
+      .sub {
+        background-image: url(https://topsortassets.com/asset_01k4dzfba4fazrzttdx8s5g0fa.png);
+       
+        background-repeat: no-repeat;
+        padding: 150px;
+        background-position: center;
+        margin-top: -510px;
+        border-radius: 5px;
+
+      }
+        .cep{
+            position: relative;
+             max-width: 400s;
+             flex-direction: row;
+        }
+       
+        .siti{
+            color:white;
+            font-size: 15px;
+            background-color:rgb(42, 124, 218) ;
+            border: 0;
+            cursor: pointer;
+        }
+        .fot{
+            padding: 33px;
+            height: 28px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(https://wx.mlcdn.com.br/site/desk/header/lu-logo-avatar.png);
+        }
+        .maga .cep{
+            flex-shrink: 0;
+        }
+        .maga{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .text{
+            font-size: 15px;
+            color: white;   
+        }
+        .fdp{
+            font-size: 25px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+        }
+        .subtop {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 0;
+      }
+      .subtop-container {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+      .menu-left {
+        flex-shrink: 0;
+      }
+      .menu-center {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-grow: 1;
+      }
+      .subtit {
+        background: none;
+        border: none;
+        font-size: 14px;
+        color: #0073ff;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s ease;
+      }
+      .icone-menu {
+        font-size: 20px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+      .subtitle {
+        background: none;
+        border: none;
+        font-size: 16px;
+        color: #0073ff;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+      }    
+      .subtitle:hover {
+        background-color: rgb(233, 231, 231);
+        border-radius: 20px;
+      }
+    </style>
+</head>
+<body>
+    <div class="topo">
+        <div class="maga">
+            <button class="fot" onclick="location.href='site magalu.html'">.</button>
+            <button class="tit" onclick="location.href='site magalu.html'">Magalu</button>
+        </div>
+        <div class ="cep">
+           
+            <button class = "siti">
+                <i class="fa-solid fa-location-dot" ></i>
+            
+                Informe seu CEP ˅
+
+            </button>
+        </div>
+         <div class="wrap">
+            <input type="text" placeholder="Buscar no Magalu">
+            <i class="fas fa-search"></i>
+        </div>
+        
+        
+       <div  class="fdp">
+        <i class="far fa-heart"></i>
+            <i class="fas fa-shopping-bag"></i>
+            <i  class="far fa-user"></i>
+            <div class="merda">
+                <h1 class="text">
+                    Boas vindas :)
+                </h1>
+                <h1 class="text">
+                    Entre ou Cadastre-se
+                </h1>
+            </div>
+        </div>  
+    </div>
+
+
+
+    <div class="subtop">
+        <div class="subtop-container">
+            <div class="menu-left">
+                <button class="subtit"><span class="icone-menu">☰</span> Tem no magalu</button>
+            </div>
+            <div class="menu-center">
+                <button class="subtitle">Ofertas do dia</button>
+                <button class="subtitle">Celulares ˅</button>
+                <button class="subtitle">Eletrodomésticos ˅</button>
+                <button class="subtitle">TV e Vídeo ˅</button>
+                <button class="subtitle">Informática ˅</button>
+                <button class="subtitle">Móveis ˅</button>
+                <button class="subtitle">Saldão ˅</button>
+            </div>
+        </div>
+    </div>    
+
+
+
+    <div class="cabecario"></div>
+    <div class="sub"></div>
+    
+
+</body>
+</html>
